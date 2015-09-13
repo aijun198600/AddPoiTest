@@ -1,0 +1,17 @@
+//
+//  AddPoiTest-Prefix.pch
+//  AddPoiTest
+//
+//  Created by aijun on 15/9/13.
+//  Copyright (c) 2015年 aijun. All rights reserved.
+//
+
+#ifndef AddPoiTest_AddPoiTest_Prefix_pch
+#define AddPoiTest_AddPoiTest_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Macros.h"
+
+#endif

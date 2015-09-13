@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF49575E1BA4140300307BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49575D1BA4140300307BE9 /* main.m */; };
+		FF4957611BA4140300307BE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957601BA4140300307BE9 /* AppDelegate.m */; };
+		FF4957641BA4140300307BE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957631BA4140300307BE9 /* ViewController.m */; };
+		FF4957671BA4140300307BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4957651BA4140300307BE9 /* Main.storyboard */; };
+		FF4957691BA4140300307BE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4957681BA4140300307BE9 /* Images.xcassets */; };
+		FF49576C1BA4140300307BE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF49576A1BA4140300307BE9 /* LaunchScreen.xib */; };
+		FF4957781BA4140300307BE9 /* AddPoiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957771BA4140300307BE9 /* AddPoiTestTests.m */; };
+		FF4957871BA42A7100307BE9 /* AddPoiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957861BA42A7100307BE9 /* AddPoiViewController.m */; };
+		FF49578A1BA4585100307BE9 /* AJHeartScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957891BA4585100307BE9 /* AJHeartScoreView.m */; };
+		FF4D161B1BA5342900673D04 /* AddPoiViewNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D161A1BA5342900673D04 /* AddPoiViewNormalCell.m */; };
+		FF4D16281BA559C100673D04 /* AddPoiViewDragCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D16271BA559C100673D04 /* AddPoiViewDragCell.m */; };
+		FF4D162D1BA56FB400673D04 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D162C1BA56FB400673D04 /* iCarousel.m */; };
+		FF4D16301BA5772200673D04 /* AddPoiDateCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D162F1BA5772200673D04 /* AddPoiDateCardView.m */; };
+		FF4D16351BA58D6B00673D04 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D16341BA58D6B00673D04 /* UIView+Toast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4957721BA4140300307BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4957501BA4140300307BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4957571BA4140300307BE9;
+			remoteInfo = AddPoiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4957581BA4140300307BE9 /* AddPoiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddPoiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49575C1BA4140300307BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49575D1BA4140300307BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF49575F1BA4140300307BE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF4957601BA4140300307BE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF4957621BA4140300307BE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF4957631BA4140300307BE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF4957661BA4140300307BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4957681BA4140300307BE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF49576B1BA4140300307BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF4957711BA4140300307BE9 /* AddPoiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddPoiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4957761BA4140300307BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4957771BA4140300307BE9 /* AddPoiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPoiTestTests.m; sourceTree = "<group>"; };
+		FF4957851BA42A7100307BE9 /* AddPoiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPoiViewController.h; path = AddPoi/ViewController/AddPoiViewController.h; sourceTree = "<group>"; };
+		FF4957861BA42A7100307BE9 /* AddPoiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPoiViewController.m; path = AddPoi/ViewController/AddPoiViewController.m; sourceTree = "<group>"; };
+		FF4957881BA4585100307BE9 /* AJHeartScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJHeartScoreView.h; path = AddPoi/View/AJHeartScoreView.h; sourceTree = "<group>"; };
+		FF4957891BA4585100307BE9 /* AJHeartScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJHeartScoreView.m; path = AddPoi/View/AJHeartScoreView.m; sourceTree = "<group>"; };
+		FF4D16191BA5342800673D04 /* AddPoiViewNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPoiViewNormalCell.h; path = AddPoi/View/AddPoiViewNormalCell.h; sourceTree = "<group>"; };
+		FF4D161A1BA5342900673D04 /* AddPoiViewNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPoiViewNormalCell.m; path = AddPoi/View/AddPoiViewNormalCell.m; sourceTree = "<group>"; };
+		FF4D16241BA5398700673D04 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Base/Macros/Macros.h; sourceTree = "<group>"; };
+		FF4D16251BA53B5500673D04 /* AddPoiTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AddPoiTest-Prefix.pch"; path = "Base/AddPoiTest-Prefix.pch"; sourceTree = "<group>"; };
+		FF4D16261BA559C100673D04 /* AddPoiViewDragCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPoiViewDragCell.h; path = AddPoi/View/AddPoiViewDragCell.h; sourceTree = "<group>"; };
+		FF4D16271BA559C100673D04 /* AddPoiViewDragCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPoiViewDragCell.m; path = AddPoi/View/AddPoiViewDragCell.m; sourceTree = "<group>"; };
+		FF4D162B1BA56FB400673D04 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		FF4D162C1BA56FB400673D04 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		FF4D162E1BA5772200673D04 /* AddPoiDateCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPoiDateCardView.h; path = AddPoi/View/AddPoiDateCardView.h; sourceTree = "<group>"; };
+		FF4D162F1BA5772200673D04 /* AddPoiDateCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPoiDateCardView.m; path = AddPoi/View/AddPoiDateCardView.m; sourceTree = "<group>"; };
+		FF4D16331BA58D6B00673D04 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		FF4D16341BA58D6B00673D04 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4957551BA4140300307BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49576E1BA4140300307BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF49574F1BA4140300307BE9 = {
+			isa = PBXGroup;
+			children = (
+				FF49575A1BA4140300307BE9 /* AddPoiTest */,
+				FF4957741BA4140300307BE9 /* AddPoiTestTests */,
+				FF4957591BA4140300307BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4957591BA4140300307BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4957581BA4140300307BE9 /* AddPoiTest.app */,
+				FF4957711BA4140300307BE9 /* AddPoiTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF49575A1BA4140300307BE9 /* AddPoiTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D16291BA56EE100673D04 /* Vendors */,
+				FF4D161E1BA537C000673D04 /* Base */,
+				FF4D161D1BA5375100673D04 /* Utils */,
+				FF4957811BA4181F00307BE9 /* AddPoi */,
+				FF49575F1BA4140300307BE9 /* AppDelegate.h */,
+				FF4957601BA4140300307BE9 /* AppDelegate.m */,
+				FF4957621BA4140300307BE9 /* ViewController.h */,
+				FF4957631BA4140300307BE9 /* ViewController.m */,
+				FF4957651BA4140300307BE9 /* Main.storyboard */,
+				FF4957681BA4140300307BE9 /* Images.xcassets */,
+				FF49576A1BA4140300307BE9 /* LaunchScreen.xib */,
+				FF49575B1BA4140300307BE9 /* Supporting Files */,
+			);
+			path = AddPoiTest;
+			sourceTree = "<group>";
+		};
+		FF49575B1BA4140300307BE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF49575C1BA4140300307BE9 /* Info.plist */,
+				FF49575D1BA4140300307BE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF4957741BA4140300307BE9 /* AddPoiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4957771BA4140300307BE9 /* AddPoiTestTests.m */,
+				FF4957751BA4140300307BE9 /* Supporting Files */,
+			);
+			path = AddPoiTestTests;
+			sourceTree = "<group>";
+		};
+		FF4957751BA4140300307BE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4957761BA4140300307BE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF4957811BA4181F00307BE9 /* AddPoi */ = {
+			isa = PBXGroup;
+			children = (
+				FF4957841BA42A3200307BE9 /* ViewController */,
+				FF4957831BA42A2400307BE9 /* Model */,
+				FF4957821BA42A0D00307BE9 /* View */,
+			);
+			name = AddPoi;
+			sourceTree = "<group>";
+		};
+		FF4957821BA42A0D00307BE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF4957881BA4585100307BE9 /* AJHeartScoreView.h */,
+				FF4957891BA4585100307BE9 /* AJHeartScoreView.m */,
+				FF4D16191BA5342800673D04 /* AddPoiViewNormalCell.h */,
+				FF4D161A1BA5342900673D04 /* AddPoiViewNormalCell.m */,
+				FF4D16261BA559C100673D04 /* AddPoiViewDragCell.h */,
+				FF4D16271BA559C100673D04 /* AddPoiViewDragCell.m */,
+				FF4D162E1BA5772200673D04 /* AddPoiDateCardView.h */,
+				FF4D162F1BA5772200673D04 /* AddPoiDateCardView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FF4957831BA42A2400307BE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF4957841BA42A3200307BE9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF4957851BA42A7100307BE9 /* AddPoiViewController.h */,
+				FF4957861BA42A7100307BE9 /* AddPoiViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FF4D161D1BA5375100673D04 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D16311BA58D4500673D04 /* Category */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FF4D161E1BA537C000673D04 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D161F1BA5387400673D04 /* Macros */,
+				FF4D16251BA53B5500673D04 /* AddPoiTest-Prefix.pch */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		FF4D161F1BA5387400673D04 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D16241BA5398700673D04 /* Macros.h */,
+			);
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		FF4D16291BA56EE100673D04 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D162A1BA56FB400673D04 /* iCarousel */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		FF4D162A1BA56FB400673D04 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D162B1BA56FB400673D04 /* iCarousel.h */,
+				FF4D162C1BA56FB400673D04 /* iCarousel.m */,
+			);
+			name = iCarousel;
+			path = Vendors/iCarousel;
+			sourceTree = "<group>";
+		};
+		FF4D16311BA58D4500673D04 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D16321BA58D6B00673D04 /* Toast */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		FF4D16321BA58D6B00673D04 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D16331BA58D6B00673D04 /* UIView+Toast.h */,
+				FF4D16341BA58D6B00673D04 /* UIView+Toast.m */,
+			);
+			name = Toast;
+			path = Utils/Category/Toast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4957571BA4140300307BE9 /* AddPoiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49577B1BA4140300307BE9 /* Build configuration list for PBXNativeTarget "AddPoiTest" */;
+			buildPhases = (
+				FF4957541BA4140300307BE9 /* Sources */,
+				FF4957551BA4140300307BE9 /* Frameworks */,
+				FF4957561BA4140300307BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddPoiTest;
+			productName = AddPoiTest;
+			productReference = FF4957581BA4140300307BE9 /* AddPoiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4957701BA4140300307BE9 /* AddPoiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49577E1BA4140300307BE9 /* Build configuration list for PBXNativeTarget "AddPoiTestTests" */;
+			buildPhases = (
+				FF49576D1BA4140300307BE9 /* Sources */,
+				FF49576E1BA4140300307BE9 /* Frameworks */,
+				FF49576F1BA4140300307BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4957731BA4140300307BE9 /* PBXTargetDependency */,
+			);
+			name = AddPoiTestTests;
+			productName = AddPoiTestTests;
+			productReference = FF4957711BA4140300307BE9 /* AddPoiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4957501BA4140300307BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = aijun;
+				TargetAttributes = {
+					FF4957571BA4140300307BE9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FF4957701BA4140300307BE9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FF4957571BA4140300307BE9;
+					};
+				};
+			};
+			buildConfigurationList = FF4957531BA4140300307BE9 /* Build configuration list for PBXProject "AddPoiTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF49574F1BA4140300307BE9;
+			productRefGroup = FF4957591BA4140300307BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4957571BA4140300307BE9 /* AddPoiTest */,
+				FF4957701BA4140300307BE9 /* AddPoiTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4957561BA4140300307BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4957671BA4140300307BE9 /* Main.storyboard in Resources */,
+				FF49576C1BA4140300307BE9 /* LaunchScreen.xib in Resources */,
+				FF4957691BA4140300307BE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49576F1BA4140300307BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4957541BA4140300307BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4D161B1BA5342900673D04 /* AddPoiViewNormalCell.m in Sources */,
+				FF49578A1BA4585100307BE9 /* AJHeartScoreView.m in Sources */,
+				FF4D16281BA559C100673D04 /* AddPoiViewDragCell.m in Sources */,
+				FF4957641BA4140300307BE9 /* ViewController.m in Sources */,
+				FF4957871BA42A7100307BE9 /* AddPoiViewController.m in Sources */,
+				FF4D162D1BA56FB400673D04 /* iCarousel.m in Sources */,
+				FF4D16301BA5772200673D04 /* AddPoiDateCardView.m in Sources */,
+				FF4957611BA4140300307BE9 /* AppDelegate.m in Sources */,
+				FF4D16351BA58D6B00673D04 /* UIView+Toast.m in Sources */,
+				FF49575E1BA4140300307BE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49576D1BA4140300307BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4957781BA4140300307BE9 /* AddPoiTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4957731BA4140300307BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4957571BA4140300307BE9 /* AddPoiTest */;
+			targetProxy = FF4957721BA4140300307BE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4957651BA4140300307BE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4957661BA4140300307BE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF49576A1BA4140300307BE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF49576B1BA4140300307BE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4957791BA4140300307BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF49577A1BA4140300307BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF49577C1BA4140300307BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "AddPoiTest/Base/AddPoiTest-Prefix.pch";
+				INFOPLIST_FILE = AddPoiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF49577D1BA4140300307BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "AddPoiTest/Base/AddPoiTest-Prefix.pch";
+				INFOPLIST_FILE = AddPoiTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF49577F1BA4140300307BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddPoiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddPoiTest.app/AddPoiTest";
+			};
+			name = Debug;
+		};
+		FF4957801BA4140300307BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddPoiTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddPoiTest.app/AddPoiTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4957531BA4140300307BE9 /* Build configuration list for PBXProject "AddPoiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4957791BA4140300307BE9 /* Debug */,
+				FF49577A1BA4140300307BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF49577B1BA4140300307BE9 /* Build configuration list for PBXNativeTarget "AddPoiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49577C1BA4140300307BE9 /* Debug */,
+				FF49577D1BA4140300307BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF49577E1BA4140300307BE9 /* Build configuration list for PBXNativeTarget "AddPoiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49577F1BA4140300307BE9 /* Debug */,
+				FF4957801BA4140300307BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4957501BA4140300307BE9 /* Project object */;
+}
