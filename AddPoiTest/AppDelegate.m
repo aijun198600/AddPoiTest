@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Journey.h"
+#import "Poi.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +17,40 @@
 @implementation AppDelegate
 
 
+- (CoreDataHelper *)cdh{
+    
+    if (!_coreDataHelper) {
+        _coreDataHelper = [CoreDataHelper new];
+        [_coreDataHelper setupCoreData];
+    }
+    
+    return _coreDataHelper;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"Journey"];
+    NSError *error = nil;
+    NSArray *journeys = [[[self cdh] context] executeFetchRequest:request error:&error];
+    if (error) {
+        NSLog(@"error");
+    }
+    
+    if (journeys.count == 0) {
+        
+        Journey *myJourney = [NSEntityDescription insertNewObjectForEntityForName:@"Journey" inManagedObjectContext:[[self cdh] context]];
+        myJourney.title = @"My Current Journey";
+        myJourney.from = @"HK";
+        myJourney.to = @"JP";
+        myJourney.day = @(5);
+        NSDate *beginDate = [NSDate dateWithTimeIntervalSinceNow:12* 24 * 60 * 60];
+        myJourney.beginDate = beginDate;
+        
+        [[self cdh] saveContext];
+        
+    }
+    
     return YES;
 }
 

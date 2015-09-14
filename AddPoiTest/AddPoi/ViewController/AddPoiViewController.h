@@ -10,4 +10,9 @@
 
 @interface AddPoiViewController : UIViewController
 
+@property(nonatomic, strong)NSDictionary *addPoiData;
+
+- (IBAction)btnCloseAction:(id)sender;
+- (IBAction)btnSaveAction:(id)sender;
+
 @end

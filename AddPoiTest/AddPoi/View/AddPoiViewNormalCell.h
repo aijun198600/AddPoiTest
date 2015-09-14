@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AJHeartScoreView.h"
+#import "Poi.h"
 
 @interface AddPoiViewNormalCell : UITableViewCell
 
@@ -15,5 +16,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *labelTitle;
 @property (strong, nonatomic) IBOutlet UILabel *labelAddress;
 @property (strong, nonatomic) IBOutlet AJHeartScoreView *viewScore;
+@property (strong, nonatomic) Poi *poi;
 
 @end

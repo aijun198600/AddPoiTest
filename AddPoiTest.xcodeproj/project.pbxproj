@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3E2BE91BA65693002D0E7B /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E2BE81BA65693002D0E7B /* CoreDataHelper.m */; };
+		FF3E2BEC1BA669F3002D0E7B /* AddPoiDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF3E2BEA1BA669F3002D0E7B /* AddPoiDB.xcdatamodeld */; };
+		FF3E2BF11BA67175002D0E7B /* Poi.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E2BEE1BA67175002D0E7B /* Poi.m */; };
+		FF3E2BF21BA67175002D0E7B /* Journey.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E2BF01BA67175002D0E7B /* Journey.m */; };
+		FF3E2BF51BA671EE002D0E7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3E2BF41BA671EE002D0E7B /* CoreData.framework */; };
 		FF49575E1BA4140300307BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49575D1BA4140300307BE9 /* main.m */; };
 		FF4957611BA4140300307BE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957601BA4140300307BE9 /* AppDelegate.m */; };
 		FF4957641BA4140300307BE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4957631BA4140300307BE9 /* ViewController.m */; };
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF3E2BE71BA65693002D0E7B /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		FF3E2BE81BA65693002D0E7B /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		FF3E2BEB1BA669F3002D0E7B /* AddPoiDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddPoiDB.xcdatamodel; sourceTree = "<group>"; };
+		FF3E2BED1BA67175002D0E7B /* Poi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Poi.h; path = AddPoi/Model/Poi.h; sourceTree = "<group>"; };
+		FF3E2BEE1BA67175002D0E7B /* Poi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Poi.m; path = AddPoi/Model/Poi.m; sourceTree = "<group>"; };
+		FF3E2BEF1BA67175002D0E7B /* Journey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Journey.h; path = AddPoi/Model/Journey.h; sourceTree = "<group>"; };
+		FF3E2BF01BA67175002D0E7B /* Journey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Journey.m; path = AddPoi/Model/Journey.m; sourceTree = "<group>"; };
+		FF3E2BF41BA671EE002D0E7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FF4957581BA4140300307BE9 /* AddPoiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddPoiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF49575C1BA4140300307BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF49575D1BA4140300307BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3E2BF51BA671EE002D0E7B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +97,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF3E2BE51BA655CF002D0E7B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E2BE61BA65693002D0E7B /* CoreDataHelper */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FF3E2BE61BA65693002D0E7B /* CoreDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E2BE71BA65693002D0E7B /* CoreDataHelper.h */,
+				FF3E2BE81BA65693002D0E7B /* CoreDataHelper.m */,
+			);
+			name = CoreDataHelper;
+			path = Utils/Helper/CoreDataHelper;
+			sourceTree = "<group>";
+		};
+		FF3E2BF31BA671AF002D0E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E2BF41BA671EE002D0E7B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF49574F1BA4140300307BE9 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +144,7 @@
 		FF49575A1BA4140300307BE9 /* AddPoiTest */ = {
 			isa = PBXGroup;
 			children = (
+				FF3E2BF31BA671AF002D0E7B /* Frameworks */,
 				FF4D16291BA56EE100673D04 /* Vendors */,
 				FF4D161E1BA537C000673D04 /* Base */,
 				FF4D161D1BA5375100673D04 /* Utils */,
@@ -152,6 +193,7 @@
 				FF4957841BA42A3200307BE9 /* ViewController */,
 				FF4957831BA42A2400307BE9 /* Model */,
 				FF4957821BA42A0D00307BE9 /* View */,
+				FF3E2BEA1BA669F3002D0E7B /* AddPoiDB.xcdatamodeld */,
 			);
 			name = AddPoi;
 			sourceTree = "<group>";
@@ -174,6 +216,10 @@
 		FF4957831BA42A2400307BE9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FF3E2BED1BA67175002D0E7B /* Poi.h */,
+				FF3E2BEE1BA67175002D0E7B /* Poi.m */,
+				FF3E2BEF1BA67175002D0E7B /* Journey.h */,
+				FF3E2BF01BA67175002D0E7B /* Journey.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -190,6 +236,7 @@
 		FF4D161D1BA5375100673D04 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FF3E2BE51BA655CF002D0E7B /* Helper */,
 				FF4D16311BA58D4500673D04 /* Category */,
 			);
 			name = Utils;
@@ -350,11 +397,15 @@
 			files = (
 				FF4D161B1BA5342900673D04 /* AddPoiViewNormalCell.m in Sources */,
 				FF49578A1BA4585100307BE9 /* AJHeartScoreView.m in Sources */,
+				FF3E2BF11BA67175002D0E7B /* Poi.m in Sources */,
 				FF4D16281BA559C100673D04 /* AddPoiViewDragCell.m in Sources */,
+				FF3E2BF21BA67175002D0E7B /* Journey.m in Sources */,
 				FF4957641BA4140300307BE9 /* ViewController.m in Sources */,
+				FF3E2BEC1BA669F3002D0E7B /* AddPoiDB.xcdatamodeld in Sources */,
 				FF4957871BA42A7100307BE9 /* AddPoiViewController.m in Sources */,
 				FF4D162D1BA56FB400673D04 /* iCarousel.m in Sources */,
 				FF4D16301BA5772200673D04 /* AddPoiDateCardView.m in Sources */,
+				FF3E2BE91BA65693002D0E7B /* CoreDataHelper.m in Sources */,
 				FF4957611BA4140300307BE9 /* AppDelegate.m in Sources */,
 				FF4D16351BA58D6B00673D04 /* UIView+Toast.m in Sources */,
 				FF49575E1BA4140300307BE9 /* main.m in Sources */,
@@ -570,6 +621,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF3E2BEA1BA669F3002D0E7B /* AddPoiDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF3E2BEB1BA669F3002D0E7B /* AddPoiDB.xcdatamodel */,
+			);
+			currentVersion = FF3E2BEB1BA669F3002D0E7B /* AddPoiDB.xcdatamodel */;
+			name = AddPoiDB.xcdatamodeld;
+			path = AddPoi/AddPoiDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FF4957501BA4140300307BE9 /* Project object */;
 }
